@@ -1,0 +1,296 @@
+[
+   {
+      "breed": "Akita",
+      "description": "The Akita is a large Spitz dog known for being protective and devoted to its family. Because of the Akita's protective nature it can show aggression towards other dogs and become suspicious of strangers. While a bit stubborn and independent, they are typically obedient towards their master and can be trained to behave around other dogs and strangers. Akitas require lots of exercise and prefer a home with a fenced backyard they can play in.",
+      "size": "Large",
+      "lifespan": "10-12 years"
+   },
+   {
+      "breed": "Australian Shepherd",
+      "description": "Australian Shepherds are a herding breed that love to work. They have a great deal of strength and energy and are extremely intelligent. Australian Shepherds are loving and devoted to their families. With enough exercise and mental activities can be an excellent family dog.",
+      "size": "Medium",
+      "lifespan": "12-15 Years"
+   },
+   {
+      "breed": "Basset Hound",
+      "description": "Basset Hounds are friendly, loud, lovable dogs that are good with children and are relatively low-maintenance. Basset Hounds were originally bred to hunt small game and have excellent scenting skills. Despite their short legs they can move quickly so spending extra time on training or keeping them on a leash is essential.",
+      "size": "Medium",
+      "lifespan": "10-12 Years"
+   },
+   {
+      "breed": "Beagle",
+      "description": "Beagles are an active breed, bred to hunt small game. They are extremely friendly, playful and affectionate and can be great family pets. Because of their strong instincts they can be difficult to train and are not very trustworthy off a leash. They are also a very vocal and have a tendency to bark or howl often.",
+      "size": "Medium",
+      "lifespan": "10-15 Years"
+   },
+   {
+      "breed": "Bernese Mountain Dog",
+      "description": "The Bernese Mountain Dog originated in Switzerland where it was bred as an all purpose farm dog. These large dogs tend to have relaxed and calm personalities lending them to be a popular family dog. Bernese Mountain dogs enjoy company and like to spend as much time with their family as possible.",
+      "size": "Large",
+      "lifespan": "6-9 Years"
+   },
+   {
+      "breed": "Bichon Frise",
+      "description": "A descendant of the French Water Dog and the Poodle the Bichon Frise is a small, lively dog that loves attention. If you like being alone this dog might not be a good match. They are an attentive breed and become very attached to their families.",
+      "size": "Small",
+      "lifespan": "12-15 Years"
+   },
+   {
+      "breed": "Bloodhound",
+      "description": "While Bloodhounds were originally bred for their superior tracking skills they have also become known for their friendly disposition. While they are not the cleanest dogs, if you don’t mind drooling and a musty odor Bloodhounds can be a great family dog. They are are a very loving breed and are great with children.",
+      "size": "Large",
+      "lifespan": "10-12 Years"
+   },
+   {
+      "breed": "Border Collie",
+      "description": "Border Collies are a working dog, known for their skill in herding sheep. This breed is highly active and likes to work. With enough socialization this breed can be a good pet and can get along with children and other dogs.",
+      "size": "Medium",
+      "lifespan": "10-17 Years"
+   },
+   {
+      "breed": "Boston Terrier",
+      "description": "Although Boston Terriers may once have been bred as pit fighters, they have become a lively, affectionate breed of dog. While they are typically quiet, gentle dogs, they can also be a bit stubborn and have small bouts of hyperactivity. They are praised as extremely loveable companions.",
+      "size": "Small",
+      "lifespan": "13-15 Years"
+   },
+   {
+      "breed": "Boxer",
+      "description": "Descends from the old fighting dog of the high valleys of Tibet, Boxers have been developed as guard, working and companion dogs. They are active, bright fun-loving, loyal and highly intelligent. They are loving and protective and have become a popular choice for families.",
+      "size": "Medium",
+      "lifespan": "10-12 Years"
+   },
+   {
+      "breed": "Brittany",
+      "description": "Brittanys are hunting dogs but can be an excellent choice for a family with an active lifestyle. They are family oriented and love being a participant in athletic activities from running and hiking to playing fetch.",
+      "size": "Medium",
+      "lifespan": "12-14 Years"
+   },
+   {
+      "breed": "Bulldog",
+      "description": "Bulldogs are devoted to their family, love children and are easy to train. Although they were originally bred to work with bulls, they are now gentle companions and affectionate family dogs. Bulldogs do not tolerate warm weather, and must live indoors with access to air conditioning in summer weather. Because of their physical design, too much exercise or stress can make it difficult for them to breathe.",
+      "size": "Medium",
+      "lifespan": "8-10 Years"
+   },
+   {
+      "breed": "Bullmastiff",
+      "description": "Historically, Bullmastiffs served as guardians of the grounds on England’s great estates. They were breed to be courageous, strong and fast. Bullmastiffs today have become loving dogs who are protective of their family.",
+      "size": "Large",
+      "lifespan": "8-10 Years"
+   },
+   {
+      "breed": "Cane Corso",
+      "description": "The Cane Corso is an Italian breed of dog known to be an excellent companion, guard dog and hunter. This dog is best suited for an experienced owner who has a large securely fenced yard.",
+      "size": "Large",
+      "lifespan": "10-11 Years"
+   },
+   {
+      "breed": "Cavalier King Charles Spaniel",
+      "description": "This Spaniel has the ability to retain its sporty nature while being very successful as a family dog and therapy dog. They enjoy hiking, running on the beach as well as showing off their ability as hunting dogs, happily chasing small animals. ",
+      "size": "Small",
+      "lifespan": "12-14 Years"
+   },
+   {
+      "breed": "Chesapeake Bay Retriever",
+      "description": "Chesapeakes are excellent swimmers and were originally bred to hunt and retrieve ducks in the Chesapeake Bay. They naturally thrive on work and are a superb hunting companion. Chesapeakes are versatile and with training to encourage good manners, they can also be good family dogs.",
+      "size": "Large",
+      "lifespan": "12-13 Years"
+   },
+   {
+      "breed": "Chihuahua",
+      "description": "The Chihuahua is a small dog with a large personality. They can compete in dog sports and is an excellent watchdog. Chihuahuas become very attached to their family and are happiest when they are with their people.",
+      "size": "Small",
+      "lifespan": "12-18 Years"
+   },
+   {
+      "breed": "Cocker Spaniel",
+      "description": "While Cocker Spaniels are outstanding family dogs, they were originally known for their expertise as bird dogs.  Their sweet disposition and desire to please has made them popular with children, other pets and the elderly.  Unfortunately, the Cocker Spaniels popularity led to over breeding resulting in serious health and temperament problems, making it especially important to research and find a dedicated breeder.",
+      "size": "Medium",
+      "lifespan": "12-15 Years"
+   },
+   {
+      "breed": "Collie",
+      "description": "Collies love children and bond closely with all family members. They are protective of everyone in their family. As a herding dog, Collies may nip at your children’s heels or your neighbor's’ chickens in an attempt to herd them, while this might seem a bit frightening Collies are very gentle dogs.",
+      "size": "Medium",
+      "lifespan": "12-14 Years"
+   },
+   {
+      "breed": "Dachshund",
+      "description": "Dachshunds are scent hounds and were bred to hunt badgers and other tunneling animals. While they can be playful family dogs, Dachshunds have a tendency to bond with one family member, becoming jealous and snappy when they are expected to share their owner's attention.",
+      "size": "Small",
+      "lifespan": "12-15 Years"
+   },
+   {
+      "breed": "Doberman Pinscher",
+      "description": "Doberman Pinschers were originally bred to be guard dogs and continue to have that characteristic today. They are energetic and intelligent and have been trained for police and military work. They have also become family guardians and companion dogs.",
+      "size": "Large",
+      "lifespan": "11-13 Years"
+   },
+   {
+      "breed": "English Springer Spaniel",
+      "description": "English Springer Spaniels are bred to be either hunting dogs or show dogs, but they do not excel at both. They are smart, very active and thrive when given plenty of exercise. Dogs bred for show tend to have a milder temperament.",
+      "size": "Medium",
+      "lifespan": "12-14 Years"
+   },
+   {
+      "breed": "French Bulldog",
+      "description": "Once known to be good ratters, French Bulldogs have become an excellent companion dog. They love their family, but can be territorial or possessive of their people. Frenchies love to play but also enjoy lounging on the sofa. They are protective of their home and family, only barking for a cause.",
+      "size": "Small",
+      "lifespan": "10-12 Years"
+   },
+   {
+      "breed": "German Shepherd",
+      "description": "German Shepherds are working dogs and incredibly versatile. They are guide dogs for handicapped, and are also trained to do work for the police, military, search and rescue as well as drug detection. In addition German Shepherds are faithful companions.",
+      "size": "Large",
+      "lifespan": "10-13 Years"
+   },
+   {
+      "breed": "German Shorthaired Pointer",
+      "description": "German Shorthaired pointers are excellent hunting dogs who also make good family dogs. If you are not a hunter they are a wonderful companion dog for hiking, jogging and other outdoor activities.",
+      "size": "Medium",
+      "lifespan": "10-14 Years"
+   },
+   {
+      "breed": "Golden Retriever",
+      "description": "Golden retrievers are highly intelligent, sociable, beautiful and loyal. They can be lively and slow to mature, maintaining their playful puppy personality until they are three or four years old. Goldens were originally bred to retrieve water fowl for hunters, but are happy playing with their family in the yard or going for a hike. They are happiest with a job to do such as fetching the newspaper. They are excellent therapy dogs and guide dogs for the blind.",
+      "size": "Medium",
+      "lifespan": "12-13 Years"
+   },
+   {
+      "breed": "Great Dane",
+      "description": "Great Danes are one of the tallest breeds of dogs. While their size might make you apprehensive, they one of the best-natured dogs around, commonly referred to as a gentle giant. A great Dane is a sweet, affectionate pet that is gentle with children.",
+      "size": "Large",
+      "lifespan": "6-8 Years"
+   },
+   {
+      "breed": "Havanese",
+      "description": "Bred as a companion dog, the Havanese is a great choice for a pet. They are a lively and affectionate breed that get along with pretty much everyone. The Havanese is not prone to excessive barking and can be comfortable in a small house or apartment. If you are considering adding a Havanese to your family be aware that they require a significant amount of grooming. A long walk in the woods might mean a long brushing session as a Havaneses fur can easily attract dirt and leaves.",
+      "size": "Small",
+      "lifespan": "12-14 Years"
+   },
+   {
+      "breed": "Labrador Retriever",
+      "description": "Labrador Retrievers are calm and easy going but have plenty of energy to endlessly play fetch. They have a reputation for their versatility. They are good at hunting, search and rescue, are trained as service dogs and are great family dogs especially if you enjoy outdoor activities. A Lab’s sweet nature, also make them excellent therapy dogs.",
+      "size": "Large",
+      "lifespan": "10-12 Years"
+   },
+   {
+      "breed": "Maltese",
+      "description": "This Maltese is one of the most gentle of small breed dogs. They were bred to be companion dogs. They are full of energy and playful making them great family dogs. They are charming always looking for attention and adept at getting their own way.",
+      "size": "Small",
+      "lifespan": "12-14 Years"
+   },
+   {
+      "breed": "Mastiff",
+      "description": "Thousands of years ago Mastiffs were known to be a ferocious war dog. In modern times they have become an excellent companion dog for anyone who can manage his great size and ability to drool.",
+      "size": "Large",
+      "lifespan": "10-12 Years"
+   },
+   {
+      "breed": "Miniature Schnauzer",
+      "description": "Miniature Schnauzers are lively and active dogs. They have larger than life personalities and will want to follow you all around the house participating in everything you do.",
+      "size": "Small",
+      "lifespan": "12-15 Years"
+   },
+   {
+      "breed": "Newfoundland",
+      "description": "The Newfoundland is a large strong dog breed, used to hard work. While they excel at pulling nets for fishermen and hauling wood from the forest Newfoundlands are calm, sweet  and friendly, making them a wonderful family companion.",
+      "size": "Large",
+      "lifespan": "9-11 Years"
+   },
+   {
+      "breed": "Papillon",
+      "description": "Although Papillons once graced the laps of kings and queens, they are probably not the best choice if you are looking for a lap dog, they are doers not cuddlers. These dogs are bright, busy and curious and likely to be flitting around looking for something to do. They will happily rid your house of rodents and are protective of their family, taking the duties as guardian seriously.",
+      "size": "Small",
+      "lifespan": "12-14 Years"
+   },
+   {
+      "breed": "Pembroke Welsh Corgi",
+      "description": "Pembroke Welsh Corgis are natural herding dogs. As a result they may herd children by nipping at their heels while they play. These days they are most often seen as family dogs. Corgis are athletic and surprisingly fast. They can be a bit stubborn, have an independent streak and like to think for themselves.",
+      "size": "Medium",
+      "lifespan": "12-15 Years"
+   },
+   {
+      "breed": "Pomeranian",
+      "description": "Pomeranians are loyal companions who love being around their owners. They have a natural desire to please and are protective of their people. They are friendly, playful and energetic and well suited for companionship.",
+      "size": "Small",
+      "lifespan": "12-15 Years"
+   },
+   {
+      "breed": "Poodle",
+      "description": "Poodles are affectionate family dogs breed originally as a water retriever. Their job was to jump into the water to fetch waterfowl for hunters. The original purpose of the elaborate coat styling was to lighten the dog’s coat so it wouldn’t snag on underwater debris, while the long hair protected the dog from the cold. Poodles have playful yet dignified personality with keen intelligence. They are people friendly dogs who want to stay close to their families.",
+      "size": "Medium",
+      "lifespan": "12-14 Years"
+   },
+   {
+      "breed": "Pug",
+      "description": "Pugs are a sturdy, compact dogs who love being the clown of the canine world. They were bred to be a lap dog and thrive on human contact. Pugs love to be the center of attention and depressed if they are ignored. They are playful and always ready to play games.",
+      "size": "Small",
+      "lifespan": "12-15 Years"
+   },
+   {
+      "breed": "Rottweiler",
+      "description": "Rottweilers were originally bred to drive cattle to market. They were among the first police dogs and served in the military. Rottweilers are now popular as family guardians and friends.A Rottweiler is strong and true with a loving heart.",
+      "size": "Large",
+      "lifespan": "9-10 Years"
+   },
+   {
+      "breed": "Shetland Sheepdog",
+      "description": "Shetland Sheepdogs once stood guard for farmers in Scotland, keeping hungry birds and sheep out of the gardens. They were often used for herding as well. Today they excel at dog sports and are excellent family companions.",
+      "size": "Medium",
+      "lifespan": "12-13 Years"
+   },
+   {
+      "breed": "Shiba Inu",
+      "description": "The Shiba Inu is known for a bold, fiery personality. This breed from Japan is interesting, intelligent and strong-willed. They approach the world with calm dignity and the feeling of superiority which is perhaps why they have also been described as stubborn.",
+      "size": "Small",
+      "lifespan": "12-15 Years"
+   },
+   {
+      "breed": "Shih Tzu",
+      "description": "Shih Tzus have a friendly temperament and has many numerous positive traits including affection, loyalty and extroversion. The were bred to be companion dogs and their  purpose in life is to love and be loved.",
+      "size": "Small",
+      "lifespan": "10-16 Years"
+   },
+   {
+      "breed": "Siberian Husky",
+      "description": "Siberian Huskies are athletic, intelligent dogs. They are affectionate to everyone and do well in multi-dog homes. They can be a challenge for first- time dog owners. They were first bred as sled dogs and their ability to learn is staggering.",
+      "size": "Medium",
+      "lifespan": "12-15 Years"
+   },
+   {
+      "breed": "Soft Coated Wheaten Terrier",
+      "description": "More relaxed than most terriers, the Soft Coated Wheaten Terrier is lively, outgoing and playful. These dogs have lots of energy and need a good amount of exercise to keep them content. Friendly, as well as playful, Wheaten Terriers get along with almost everyone. While these dogs can be good with kids, it's important that they get enough exercise. If a Wheaten Terrier does not get enough exercise they can be a bit over exuberant. As a dog that does not shed, Wheaten terriers also require a significant amount of grooming. To keep their hair soft and detangled, they need to be brushed often.",
+      "size": "Medium",
+      "lifespan": "13-14 Years"
+   },
+   {
+      "breed": "Saint Bernard",
+      "description": "Saint Bernards did, in fact, rescue people in the cold and guarded the grounds of Switzerland’s Hospice Saint Bernard. Saint Bernards are kind, gentle, intelligent and good-natured. They are also a very large, but despite their size they are quiet indoor dogs who make a wonderful friends. A Saint Bernard doesn’t need a large house, they can also manage in an apartment, but these dogs are not the best housekeepers. They have a tendency to drool and shed and track in mud and dirt. ",
+      "size": "Large",
+      "lifespan": "8-10 Years"
+   },
+   {
+      "breed": "Vizsla",
+      "description": "Vizsla were originally bred to be hunters and pointers. They are, however, an excellent companion for an active family who can give them love and exercise. Many dogs love their family but Vizslas are especially attached to their people. When they are not running, hiking or playing with you, they will likely be leaning against your leg, sleeping on your feet, always your shadow. A Vizslas biggest fear is being separated from his family.",
+      "size": "Medium",
+      "lifespan": "13-14 Years"
+   },
+   {
+      "breed": "Weimaraner",
+      "description": "Weimaraners were bred to be gundogs to manage big game. These dogs continue to be excellent hunting dogs, but are outstanding family friends as well.  Although Weimaraners are hunting dogs, they are not happy living outdoors. They are happiest living close to their family where they can receive lots of attention. They are high strung dogs and can suffer from separation anxiety if they are left alone for very long. They do best with lots of exercise and mental stimulation.",
+      "size": "Large",
+      "lifespan": "12-13 Years"
+   },
+   {
+      "breed": "West Highland White Terrier",
+      "description": "Westies are happy living just about anywhere. They are energetic, people-oriented dogs. They are instinctive hunters and will spend little time lounging on your lap. They have high energy levels and prefers to dig, run and pounce on small furry animals.They are independent animals who like to be doing something all the time. ",
+      "size": "Small",
+      "lifespan": "9-15 Years"
+   },
+   {
+      "breed": "Yorkshire Terrier",
+      "description": "The Yorkshire Terriers are feisty little dogs who are devoted to their family. They are affectionate to their families but sometimes suspicious of everyone else and will bark at strangers and unfamiliar sounds. They desire lots of time and attention from their family. Yorkies enjoy traveling with their owners wherever they go.",
+      "size": "Small",
+      "lifespan": "12-15 Years"
+   }
+]
