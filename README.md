@@ -9,6 +9,11 @@
 
 
 <!-- 
+git add .
+git commit -m "type here"
+git remote add origin https://github.com/jthibeault2005/AWATO_Project.git
+git push -u origin master
+
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 https://www.indeed.com/viewjob?jk=ad78a890fd99371f&from=myjobs&tk=1cfomduef0mup43q
