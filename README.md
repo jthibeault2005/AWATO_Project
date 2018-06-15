@@ -3,6 +3,9 @@
 ## RestDB.io
 [RestDB.io Dogs link](https://awatodogs-5351.restdb.io/home/db/awatodogs-5351)
 
+## GitHub Pages
+[My GitHub Page for this Project](https://jthibeault2005.github.io/AWATO_Project/)
+[Doc for GH Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
 
 
 <!-- 
