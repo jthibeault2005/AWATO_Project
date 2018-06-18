@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset ="utf-8">
-<title>Dogs</title>
+<title>Awato Dogs</title>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -10,23 +10,30 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-resource.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-route.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-cookies.min.js"></script>
+
+<script src="js/controllers.js"></script>
 </head>
 
 <body>
 
 <h1>Hello World</h1>
 
-<div ng-app ng-init="qty=1;cost=2">
-  <b>Invoice:</b>
-  <div>
-    Quantity: <input type="number" min="0" ng-model="qty">
-  </div>
-  <div>
-    Costs: <input type="number" min="0" ng-model="cost">
-  </div>
-  <div>
-    <b>Total:</b> {{qty * cost | currency}}
-  </div>
+<div ng-app="HelloWorldApp" ng-init="qty=1;cost=2">
+ <b>Invoice:</b>
+ <div>
+  Quantity: <input type="number" min="0" ng-model="qty">
+ </div>
+ <div>
+  Costs: <input type="number" min="0" ng-model="cost">
+ </div>
+ <div>
+  <b>Total:</b> {{qty * cost | currency}}
+ </div>
+
+ <div ng-controller="HelloWorldController">
+  <h1>{{greeting}}</h1>
+ </div>
+
 </div>
 
 </body>
