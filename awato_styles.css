@@ -1,9 +1,11 @@
+/* */
 .awato-header h1 {
     color: blue;
     font-family: verdana;
     font-size: 300%;
 }
 
+/* CSS3 Mobile Example */
 @media screen and (min-width: 1200px) {
  .page-container{
   margin: 3% 0 0 0;

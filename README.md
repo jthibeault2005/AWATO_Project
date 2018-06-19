@@ -7,6 +7,9 @@
 [My GitHub Page for this Project](https://jthibeault2005.github.io/AWATO_Project/)
 [Doc for GH Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
 
+## Resources Used
+[Bootstrap Doc](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+[Angular Doc](https://docs.angularjs.org/api)
 
 # Project Overview
 
