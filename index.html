@@ -2,9 +2,13 @@
 <html>
 <head>
 <meta charset ="utf-8">
+<!-- This line for bootstrap -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Awato Dogs</title>
 
-<link rel="stylesheet" href="awato_styles.css">
+<!--
+<link rel="stylesheet" href="css/awato_styles.css">
+-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -19,6 +23,33 @@
 </head>
 
 <body>
+
+<!-- https://v4-alpha.getbootstrap.com/components/navbar/ -->
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+<!-- Just an image -->
+  <a class="navbar-brand" href="#">
+    <img src="images/awato_scooby.jpeg" width="30" height="30" alt="">
+    Awato Dogs
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 
 <h1>Hello World</h1>
 
@@ -37,7 +68,6 @@
  <div class="awato-header" ng-controller="HelloWorldController">
   <h1>{{greeting}}</h1>
  </div>
-
 </div>
 
 </body>
