@@ -54,4 +54,17 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 https://www.indeed.com/viewjob?jk=ad78a890fd99371f&from=myjobs&tk=1cfomduef0mup43q
 https://www.google.com/maps/place/Awato/
+
+MVC Explained
+https://www.tomdalling.com/blog/software-design/model-view-controller-explained/
+
+Bootstrap Examples
+https://v4-alpha.getbootstrap.com/examples/
+
+w3schools
+https://www.w3schools.com/bootstrap/default.asp
+https://www.w3schools.com/angular/default.asp
+
+AngularJS and REST DBs
+https://www.openliberty.io/guides/rest-client-angularjs.html
 -->

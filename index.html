@@ -11,6 +11,7 @@
 -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular.min.js"></script>
@@ -25,13 +26,14 @@
 <body>
 
 <!-- https://v4-alpha.getbootstrap.com/components/navbar/ -->
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+<nav class="navbar navbar-fixed-top navbar-toggleable-md navbar-light bg-faded">
  <a class="navbar-brand" href="#">
   <img src="images/awato_scooby.jpeg" width="30" height="30" alt="">
   Awato Dogs
  </a>
 </nav>
 
+<!-- https://themes.getbootstrap.com/ -->
 <div class="jumbotron text-center">
  <h1>Doggy Database</h1>
  <p>Lookup or Add the dog of your choice.</p> 
@@ -75,9 +77,14 @@
      Dog Breed: <input type="text">
     </div>
     <div>
-     Dog Number: <input type="number">
+     Dog Size: <input type="text">
     </div>
-   <p></p>
+    <div>
+     Dog Description: <input type="text">
+    </div>
+    <div>
+     Dog Lifespan: <input type="text">
+    </div>
     <div>
      <button type="submit">Add Doggy</button>
     </div>
