@@ -6,10 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Awato Dogs</title>
 
-<!--
-<link rel="stylesheet" href="css/awato_styles.css">
--->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/awato_styles.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -21,6 +19,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-aria.min.js"></script>
 
 <script src="js/controllers.js"></script>
+<script src="js/cont.js"></script>
 </head>
 
 <body>
@@ -41,8 +40,11 @@
 <div class="container">
  <div class="row">
   <div class="col-sm-4">
-   <h3>AngularJS</h3>
-   <p>Dog card display...</p>
+   <h3>Dog</h3>
+   <p>Dog Display</p>
+   <p>Breed: </p>
+   <p>Description: </p>
+<!-- Angular Example that works
    <div ng-app="HelloWorldApp" ng-init="qty=1;cost=2">
     <b>Invoice:</b>
     <div>
@@ -58,21 +60,22 @@
      <h3>{{greeting}}</h3>
     </div>
    </div>
+-->
   </div>
   <div class="col-sm-4">
-   <h3>Where My Dogs At</h3>
-   <p>Find your dog...</p>
+   <h3>Search Dog by Breed</h3>
+   <p></p>
     <div>
-     Dog Number: <input type="number">
+     Dog Breed: <input type="number">
     </div>
-   <p>Where ye at...</p>
+   <p>Search for Dog</p>
     <div>
-     <button type="submit">Find Ye</button>
+     <button type="submit">Search</button>
     </div>
   </div>
   <div class="col-sm-4">
    <h3>Add a Dog</h3>
-   <p>Add ye dog...</p>
+   <p></p>
     <div>
      Dog Breed: <input type="text">
     </div>
@@ -86,8 +89,14 @@
      Dog Lifespan: <input type="text">
     </div>
     <div>
-     <button type="submit">Add Doggy</button>
+     <button type="submit">Add Dog</button>
     </div>
+  </div>
+ </div>
+ <div class="row">
+  <div class="col-lg-1">
+   <h2>Dog List</h2>
+   <p>List of dogs from restDB.io.  Also, this is an output of the JSON which is returned from restDB.io.</p>
   </div>
  </div>
 </div>
