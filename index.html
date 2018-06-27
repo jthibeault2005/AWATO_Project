@@ -5,6 +5,7 @@
 <!-- This line for bootstrap -->
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Awato Dogs</title>
+<link rel="icon" href="images/awato_scooby.jpeg">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/awato_styles.css">
@@ -19,7 +20,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-aria.min.js"></script>
 
 <script src="js/controllers.js"></script>
-<script src="js/cont.js"></script>
+<script src="js/ctrls.js"></script>
 </head>
 
 <body>
@@ -97,6 +98,12 @@
   <div class="col-lg-1">
    <h2>Dog List</h2>
    <p>List of dogs from restDB.io.  Also, this is an output of the JSON which is returned from restDB.io.</p>
+   <div ng-app="DogApp" ng-controller="DogController">
+    Yup: {{dogs}} <br>
+    Breed: {{dog().breed}}
+   </div>
+   <div ng-app="hDogs" ng-controller="hDogsController">
+   </div>
   </div>
  </div>
 </div>

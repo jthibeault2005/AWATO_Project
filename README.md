@@ -50,21 +50,28 @@ git commit -m "type here"
 git remote add origin https://github.com/jthibeault2005/AWATO_Project.git
 git push -u origin master
 
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
+Awato info
+https://www.awato.org/
 https://www.indeed.com/viewjob?jk=ad78a890fd99371f&from=myjobs&tk=1cfomduef0mup43q
 https://www.google.com/maps/place/Awato/
+
+Markdown (.md) cheatsheet
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 MVC Explained
 https://www.tomdalling.com/blog/software-design/model-view-controller-explained/
 
-Bootstrap Examples
-https://v4-alpha.getbootstrap.com/examples/
-
 w3schools
 https://www.w3schools.com/bootstrap/default.asp
 https://www.w3schools.com/angular/default.asp
+https://www.w3schools.com/bootstrap4/default.asp
+
+Bootstrap Examples
+https://v4-alpha.getbootstrap.com/examples/
 
 AngularJS and REST DBs
 https://www.openliberty.io/guides/rest-client-angularjs.html
+https://blog.brunoscopelliti.com/authentication-to-a-restful-web-service-in-an-angularjs-web-app/
+This is used in my controllers.js
+https://github.com/RestDB/clientexamples/tree/master/Angular%20simple%20images
 -->
