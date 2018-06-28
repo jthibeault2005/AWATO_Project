@@ -68,6 +68,11 @@ https://www.w3schools.com/bootstrap4/default.asp
 
 Bootstrap Examples
 https://v4-alpha.getbootstrap.com/examples/
+https://themes.getbootstrap.com/
+Bootstrap Dynamic Tabs
+https://www.w3schools.com/bootstrap/bootstrap_tabs_pills.asp
+https://codepen.io/IamManchanda/pen/VzRPVY
+https://www.w3schools.com/bootstrap4/bootstrap_ref_js_tab.asp
 
 AngularJS and REST DBs
 https://www.openliberty.io/guides/rest-client-angularjs.html

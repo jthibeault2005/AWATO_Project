@@ -8,7 +8,7 @@
 <link rel="icon" href="images/awato_scooby.jpeg">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="css/awato_styles.css">
+<!-- <link rel="stylesheet" href="css/awato_styles.css"> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -33,7 +33,7 @@
  </a>
 </nav>
 
-<!-- https://themes.getbootstrap.com/ -->
+<!-- Bootstrap Jumbotron Theme -->
 <div class="jumbotron text-center">
  <h1>Doggy Database</h1>
  <p>Lookup or Add the dog of your choice.</p> 
@@ -41,10 +41,8 @@
 <div class="container">
  <div class="row">
   <div class="col-sm-4">
-   <h3>Dog</h3>
-   <p>Dog Display</p>
-   <p>Breed: </p>
-   <p>Description: </p>
+   <h3>Catalog a Dog</h3>
+   <p>Have a rare breed to show the world.  Well, catalog it with us today to display it for all the world to see.  Help create the community you want to be proud.</p>
 <!-- Angular Example that works
    <div ng-app="HelloWorldApp" ng-init="qty=1;cost=2">
     <b>Invoice:</b>
@@ -64,48 +62,64 @@
 -->
   </div>
   <div class="col-sm-4">
-   <h3>Search Dog by Breed</h3>
-   <p></p>
-    <div>
-     Dog Breed: <input type="number">
-    </div>
-   <p>Search for Dog</p>
-    <div>
-     <button type="submit">Search</button>
-    </div>
+   <h3>Lookup a Dog</h3>
+   <p>We have tens of tens of dog breeds to search for your dog and learn about their world.</p>
   </div>
   <div class="col-sm-4">
    <h3>Add a Dog</h3>
-   <p></p>
-    <div>
-     Dog Breed: <input type="text">
-    </div>
-    <div>
-     Dog Size: <input type="text">
-    </div>
-    <div>
-     Dog Description: <input type="text">
-    </div>
-    <div>
-     Dog Lifespan: <input type="text">
-    </div>
-    <div>
-     <button type="submit">Add Dog</button>
-    </div>
+   <p>Add a dog today.  Take your dog's breed, size, and lifespan and add to our database.  Also, write up a small description and pass it along to the database.</p>
   </div>
  </div>
- <div class="row">
-  <div class="col-xl-12">
-   <h2>Dog List</h2>
-   <p>List of dogs from restDB.io.  Also, this is an output of the JSON which is returned from restDB.io.</p>
-   <div ng-app="DogApp" ng-controller="DogController">
-    Yup: {{dogs}} <br>
-    Breed: {{dog().breed}}
-   </div>
-   <div ng-app="hDogs" ng-controller="hDogsController">
-   </div>
+
+<!-- -->
+<div class="row"><div class="col-xl-12">
+ <h2>Dog DB</h2>
+  <p>List the Dogs in the database or Add a dog of your own.<p>
+  <br>
+  <!-- Create Tabs -->
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#home">Dogs</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#menu1">Add</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+      <h3>Dogs</h3>
+       <div ng-app="DogApp" ng-controller="DogController">
+        Yup: {{dogs}} <br>
+        Breed: {{dog().breed}}
+       </div>
+       <div ng-app="hDogs" ng-controller="hDogsController">
+       </div>
+    </div>
+    <div id="menu1" class="container tab-pane fade"><br>
+      <h3>Add a Dog</h3>
+      <p>Ut enim ad minim veniam, </p>
+     <div>
+      Dog Breed: <input type="text">
+     </div>
+     <div>
+      Dog Size: <input type="text">
+     </div>
+     <div>
+      Dog Description: <input type="text">
+     </div>
+     <div>
+      Dog Lifespan: <input type="text">
+     </div>
+     <div>
+      <button type="submit">Add Dog</button>
+     </div>
+    </div>
   </div>
- </div>
+</div></div>
+<br>
+<!-- -->
 </div>
 
 </body>
