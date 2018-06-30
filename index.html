@@ -7,11 +7,12 @@
 <title>Awato Dogs</title>
 <link rel="icon" href="images/awato_scooby.jpeg">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 <!-- <link rel="stylesheet" href="css/awato_styles.css"> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-resource.min.js"></script>
@@ -20,6 +21,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-aria.min.js"></script>
 
 <script src="js/controllers.js"></script>
+<script src="js/controllers1.js"></script>
+<script src="js/controllers2.js"></script>
 <script src="js/ctrls.js"></script>
 </head>
 
@@ -70,13 +73,15 @@
    <p>Add a dog today.  Take your dog's breed, size, and lifespan and add to our database.  Also, write up a small description and pass it along to the database.</p>
   </div>
  </div>
+</div>
 
-<!-- -->
+<!-- This section is for tabs -->
+<div class="container">
 <div class="row"><div class="col-xl-12">
  <h2>Dog DB</h2>
   <p>List the Dogs in the database or Add a dog of your own.<p>
   <br>
-  <!-- Create Tabs -->
+  <!-- Nav Tabs -->
   <ul class="nav nav-tabs">
     <li class="nav-item">
       <a class="nav-link active" data-toggle="tab" href="#home">Dogs</a>
@@ -119,7 +124,29 @@
   </div>
 </div></div>
 <br>
+</div>
 <!-- -->
+
+<!-- This is temporary until I can get the above tabs to work -->
+<div class="container">
+ <h2>Temporary</h2>
+ <p>This is temporary until I can get the tabs above to work, but I have to move on to the AngularJS backend controller.</p>
+ <div class="row">
+  <div class="col-xl-6">
+   <h3>Dog Add</h3><br>
+   <div><input type="text" placeholder="Breed"></div>
+   <div><input type="text" placeholder="Size"></div>
+   <div><input type="text" placeholder="Description"></div>
+   <div><input type="text" placeholder="Lifespan"></div>
+   <div><button type="submit">Add Dog</button></div>
+  </div>
+  <div class="col-xl-6">
+   <h3>Dog List</h3>
+   <p>List the Dogs in the database or Add a dog of your own.<p>
+   <br>
+
+  </div>
+ </div>
 </div>
 
 </body>

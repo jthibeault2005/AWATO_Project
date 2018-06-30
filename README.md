@@ -77,6 +77,8 @@ https://www.w3schools.com/bootstrap4/bootstrap_ref_js_tab.asp
 AngularJS and REST DBs
 https://www.openliberty.io/guides/rest-client-angularjs.html
 https://blog.brunoscopelliti.com/authentication-to-a-restful-web-service-in-an-angularjs-web-app/
-This is used in my controllers.js
+controller2.js
 https://github.com/RestDB/clientexamples/tree/master/Angular%20simple%20images
+controller1.js
+https://howtodoinjava.com/angularjs/angularjs-http-restful-api-example/
 -->
