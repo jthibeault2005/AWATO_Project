@@ -1,7 +1,7 @@
-var app = angular.module("UserManagement", []);
+var appDog = angular.module("UserManagement", []);
 
 //Controller Part
-app.controller("UserManagementController", function($scope, $http) {
+appDog.controller("UserManagementController", function($scope, $http) {
  //Initialize page with default data which is blank in this example
  $scope.employees = [];
  $scope.form = {

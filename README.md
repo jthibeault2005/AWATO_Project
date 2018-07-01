@@ -81,4 +81,5 @@ controller2.js
 https://github.com/RestDB/clientexamples/tree/master/Angular%20simple%20images
 controller1.js
 https://howtodoinjava.com/angularjs/angularjs-http-restful-api-example/
+https://weblogs.asp.net/dwahlin/using-an-angularjs-factory-to-interact-with-a-restful-service
 -->

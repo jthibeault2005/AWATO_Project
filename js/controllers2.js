@@ -52,13 +52,10 @@ hDogs.controller("hDogsController", ["$scope", "hDogs", function($scope, hDogs) 
 hDogs.factory("hDogs", ["$http", "$q", "config", function($http, $q, config) {
  function hDogs(){
   var self = this;  
-  
   self.apiKey = config.apiKey;
   self.apiUrl = "https://" + config.dbName + ".restdb.io/rest/" + config.collectionName;
   self.mediaUrl = "https://" + config.dbName + ".restdb.io/media";
-
   self.hDogs = null;
-  
   self.get = function(update) {   
    var deferred = $q.defer();   
    if(self.hDogs !== null && update === false) {
@@ -74,15 +71,14 @@ hDogs.factory("hDogs", ["$http", "$q", "config", function($http, $q, config) {
      "processData": false
     } 
     $http(api).then(function(response){
-     
      for(var b = 0; b < response.data.length; b++){
-      for(var i = 0; i < response.data[b].Image.length; i++){      
-       var imageId = response.data[b].Image[i];
-       response.data[b].Image[i] = {
+      for(var i = 0; i < response.data[b].Dog.length; i++){      
+       var imageId = response.data[b].Dog[i];
+       response.data[b].Dog[i] = {
         imageId: imageId,
-        thumb: self.getImageUrl(imageId, 't'),
-        web: self.getImageUrl(imageId, 'w'),
-        full: self.getImageUrl(imageId, '')
+        thumb: self.getDogUrl(imageId, 't'),
+        web: self.getDogUrl(imageId, 'w'),
+        full: self.getDogUrl(imageId, '')
        }
       }
      }
@@ -98,8 +94,7 @@ hDogs.factory("hDogs", ["$http", "$q", "config", function($http, $q, config) {
   self.new = function(hDog, hDogName){ 
    var deferred = $q.defer();  
    var formData = new FormData();
-   formData.append('Image', hDog, hDog.name); 
-   
+   formData.append('Dog', hDog, hDog.name); 
    var mediaApi = {
     "url": self.mediaUrl,
     "method": "POST",
@@ -110,9 +105,7 @@ hDogs.factory("hDogs", ["$http", "$q", "config", function($http, $q, config) {
     "processData": false,
     "data": formData
    }
-     
    $http(mediaApi).then(function(response){
-    
     var api = {
      "url": self.apiUrl + "?sort=_createdby",
      "method": "POST",
@@ -123,10 +116,9 @@ hDogs.factory("hDogs", ["$http", "$q", "config", function($http, $q, config) {
      "processData": false,
      "data": { 
       "Name": hDogName,
-      "Image": [ response.data.ids[0] ]
+      "Dog": [ response.data.ids[0] ]
      }
     }
-    
     $http(api).then(function(response){
      deferred.resolve(response.data);
     }, function(response){
@@ -135,15 +127,13 @@ hDogs.factory("hDogs", ["$http", "$q", "config", function($http, $q, config) {
    }, function(response){
     deferred.reject(response);
    });
-   
    return deferred.promise;
   }
   
   self.delete = function(beauty){ 
    var deferred = $q.defer();
-   
    var mediaApi = {
-    "url": self.mediaUrl + "/" + beauty.Image[0].imageId,
+    "url": self.mediaUrl + "/" + beauty.Dog[0].imageId,
     "method": "DELETE",
     "headers": {
      "content-type": "application/json",
@@ -151,7 +141,6 @@ hDogs.factory("hDogs", ["$http", "$q", "config", function($http, $q, config) {
     }
    } 
    $http(mediaApi).then(function(response){
-
     var api = {
      "url": self.apiUrl + "/" + beauty._id,
      "method": "DELETE",
@@ -169,13 +158,11 @@ hDogs.factory("hDogs", ["$http", "$q", "config", function($http, $q, config) {
    }, function(response){
     deferred.reject(response);
    });
-   
    return deferred.promise;
   }
   
   self.rename = function(hDogId, newName){ 
    var deferred = $q.defer();
-   
    var api = {
     "url": self.apiUrl + "/" + hDogId,
     "method": "PUT",
@@ -193,11 +180,10 @@ hDogs.factory("hDogs", ["$http", "$q", "config", function($http, $q, config) {
    }, function(response){
     deferred.reject(response);
    });
-   
    return deferred.promise;
   }
   
-  self.getImageUrl = function(imageId, size){
+  self.getDogUrl = function(imageId, size){
    return self.mediaUrl + '/' + imageId + '?s=' + size;
   }
  }

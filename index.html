@@ -22,7 +22,8 @@
 
 <script src="js/controllers.js"></script>
 <script src="js/controllers1.js"></script>
-<script src="js/controllers2.js"></script>
+<script src="js/controllers2_temp.js"></script>
+<script src="js/controllers3.js"></script>
 <script src="js/ctrls.js"></script>
 </head>
 
@@ -99,8 +100,10 @@
         Yup: {{dogs}} <br>
         Breed: {{dog().breed}}
        </div>
+<!-- Temporary, until I get tabs working
        <div ng-app="hDogs" ng-controller="hDogsController">
        </div>
+-->
     </div>
     <div id="menu1" class="container tab-pane fade"><br>
       <h3>Add a Dog</h3>
@@ -144,6 +147,9 @@
    <h3>Dog List</h3>
    <p>List the Dogs in the database or Add a dog of your own.<p>
    <br>
+   <div ng-app="mydogApp" ng-controller="mydogAppController">
+    <p>{{apikey}}</p>
+   </div>
 
   </div>
  </div>
