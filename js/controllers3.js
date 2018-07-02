@@ -7,16 +7,12 @@ hDogs.constant("config", {
     collectionName: "dogs"
 });
 
-mydogApp.controller("mydogAppController", ["$scope", "mydogApp", function($scope, mydogApp){
-
-}]);
-
-mydogApp.factory("mydogApp", ["$http", "$q", "config", function($http, config) {
+mydogApp.controller("mydogAppController", "$http", "$q", "config", ["$scope", "mydogApp", function($scope, $http, $q, config, mydogApp){
  apikey = config.apikey;
  httpdb = config.restdbio;
 
  var def = $q.defer();
- $http({
+ $scope.doggys = $http({
   async: true,
   crossDomain: true,
   url: httpdb,
@@ -32,4 +28,3 @@ mydogApp.factory("mydogApp", ["$http", "$q", "config", function($http, config) {
   console.log("Error " + response.data);
  });
 }]);
-
